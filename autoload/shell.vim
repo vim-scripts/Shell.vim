@@ -2,15 +2,17 @@
 "  Description: Insert modelines
 "   Maintainer: Martin Krischik
 "               Janakiraman .S <prince@india.ti.com>
-"    Copyright: Copyright (C) 2006 Martin Krischik
-" Name Of File: plugin/modelines.vim
-" Last Changed: Monday, 09 May 2006
+"    Copyright: Copyright (C) 2006 ¿ 2022 Martin Krischik
+"      Version: 0.2
+" Name Of File: autoload/modelines.vim
+" Last Changed: Monday, 22 Sep 2022
 "      Version: 2.0
 "	 Usage: copy to plugin directory
 "      History: 18.11.2006 MK Bram's suggestion for runtime integration
 "		18.11.2006 MK "set: :" syntax for "/* */" languages   
 "		17.09.2007 MK change to bundle use NERD_Commenter when
 "		              available  
+"		22.09.2022 MK make deim compatible.
 "-------------------------------------------------------------------------------
 
 if version < 700
