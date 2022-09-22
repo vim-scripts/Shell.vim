@@ -1,6 +1,7 @@
 "	   FILE: /user/prince/Vim/Functions/Shell.vim
 "	 AUTHOR: Janakiraman .S <prince@india.ti.com>
 "		 Martin Krichik
+"       Version: 0.2
 " Last Modified: Sat, 18 Aug 2001 10:34:07 (IST)
 "	  Usage: Just source this file.
 "		 source Shell.vim
