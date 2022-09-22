@@ -24,4 +24,4 @@ endif
 finish
 
 " vim: textwidth=78 nowrap tabstop=8 shiftwidth=4 softtabstop=4 noexpandtab
-" vim: filetype=vim encoding=latin1 fileformat=unix
+" vim: filetype=vim fileencoding=latin1 fileformat=unix

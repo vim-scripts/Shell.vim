@@ -1,16 +1,11 @@
 "-------------------------------------------------------------------------------
 "  Description: Insert modelines
 "   Maintainer: Martin Krischik
-"      $Author$
 "               Janakiraman .S <prince@india.ti.com>
-"	 $Date$
-"	   $Id$
 "    Copyright: Copyright (C) 2006 Martin Krischik
 " Name Of File: plugin/modelines.vim
 " Last Changed: Monday, 09 May 2006
 "      Version: 2.0
-"    $Revision$
-"     $HeadURL$
 "	 Usage: copy to plugin directory
 "      History: 18.11.2006 MK Bram's suggestion for runtime integration
 "		18.11.2006 MK "set: :" syntax for "/* */" languages   
@@ -159,4 +154,4 @@ augroup end
 finish
 
 " vim: textwidth=78 nowrap tabstop=8 shiftwidth=4 softtabstop=4 noexpandtab
-" vim: filetype=vim encoding=latin1 fileformat=unix
+" vim: filetype=vim fileencoding=latin1 fileformat=unix
