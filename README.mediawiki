@@ -1,0 +1,44 @@
+= A shell buffer in vim =
+
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1337
+
+== Description ==
+
+Many a time I find myself missing the power of '''the''' editor while typing shell commands. This script opens a new buffer which can be used to enter shell commands. Commands will be executed when you type <Enter>. Simply put, it does a :r!command<cr> and a little more.
+
+The global variable g:PROMPT will be used as the prompt string.
+
+== Installation ==
+
+Install from https://github.com/krischik/vim-shell using dein (https://github.com/Shougo/dein.vim) or similar:
+
+{{code|lang=vim|
+call dein#begin('$HOME/vimfiles/bundles')
+call dein#add('krischik/vim-shell')
+call dein#end()
+call dein#install()
+}}
+
+== References ==
+
+{|
+|+ A shell buffer in vim
+|-
+| Vim-Script	|| https://www.vim.org/scripts/script.php?script_id=0118
+|-
+| Source	|| https://github.com/krischik/vim-shell
+|-
+| Wiki		|| https://github.com/krischik/vim-shell/wiki
+|-
+| Releases	|| https://github.com/krischik/vim-shell/releases
+|-
+| Issues	|| https://github.com/krischik/vim-shell/issues
+|-
+| Discussions	|| https://github.com/krischik/vim-shell/discussions
+|}
+
+==Comments==
+
+/* vim: set textwidth=0 wrap tabstop=8 shiftwidth=4 softtabstop=4 noexpandtab : */
+/* vim: set filetype=mediawiki fileencoding=utf8 fileformat=unix foldmethod=marker : */
+/* vim: set nospell spelllang=en_gb : */
